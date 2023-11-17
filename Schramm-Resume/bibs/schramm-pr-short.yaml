@@ -1,0 +1,84 @@
+---
+references:
+- id: bertholdDirectMailingEducation2021
+  author:
+    - family: Berthold
+      given: T. A.
+    - family: Olsovsky
+      given: Taylor
+    - family: Schramm
+      given: Michael P.
+  citation-key: bertholdDirectMailingEducation2021
+  container-title: Journal of Contemporary Water Research & Education
+  DOI: 10.1111/j.1936-704X.2021.3360.x
+  issue: '174'
+  issued:
+    - year: 2021
+  page: 45-60
+  title: >-
+    Direct mailing education campaign impacts on the adoption of grazing
+    management practices
+  type: article-journal
+
+- id: schramm_estimating_2021
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schramm_estimating_2021
+  container-title: Texas Water Journal
+  DOI: 10.21423/txj.v12i1.7126
+  issue: '1'
+  issued:
+    - year: 2021
+  page: 140-150
+  title: >-
+    Estimating statistical power for detecting long term trends in surface water
+    *Escherichia coli* concentrations
+  type: article-journal
+  volume: '12'
+
+- id: schramm_synthesis_2016
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Bevelhimer
+      given: Mark S.
+    - family: DeRolph
+      given: Chris R.
+  citation-key: schramm_synthesis_2016
+  container-title: Environmental Science & Policy
+  DOI: 10.1016/j.envsci.2016.03.019
+  ISSN: '14629011'
+  issued:
+    - year: 2016
+      month: 7
+  language: en
+  page: 87-96
+  source: Crossref
+  title: >-
+    A synthesis of environmental and recreational mitigation requirements at
+    hydropower projects in the United States
+  type: article-journal
+  URL: http://linkinghub.elsevier.com/retrieve/pii/S1462901116300752
+  volume: '61'
+
+- id: schrammTotalMaximumDaily2022
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Gitter
+      given: Anna
+    - family: Gregory
+      given: Lucas
+  citation-key: schrammTotalMaximumDaily2022
+  container-title: Journal of Contemporary Water Research & Education
+  DOI: 10.1111/j.1936-704X.2022.3374.x
+  issue: '176'
+  issued:
+    - year: 2022
+  page: 36-49
+  title: >-
+    Total Maximum Daily Loads and *Escherichia coli* trends in Texas freshwater
+    streams
+  type: article-journal
+...

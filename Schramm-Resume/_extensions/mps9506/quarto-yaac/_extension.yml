@@ -1,0 +1,20 @@
+title: quarto-yaac
+author: Michael Schramm
+version: 1.0.1
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    pdf:
+      toc: false
+      #include-in-header: header.tex
+      pdf-engine: lualatex
+      template: quarto-yaac.tex
+      documentclass: yaac-another-awesome-cv
+      classoption: localFont, alternative, showLinks, monochrome, 11pt, compact
+      filters: 
+        - "list-table.lua"
+        - "multiple-bibliographies.lua"
+        - "sectiontitle.lua"
+        - "table-rules.lua"
+      cite-method: citeproc
+

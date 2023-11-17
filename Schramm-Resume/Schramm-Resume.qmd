@@ -1,0 +1,221 @@
+---
+title: YAAC-CV
+format: 
+  quarto-yaac-pdf:
+    classoption: localFont, alternative, showLinks, 11pt, compact
+firstname: Michael
+lastname: Schramm
+tagline: Researcher | Watersheds, water quality and open science
+github: mps9506
+smartphone: (910) 232-3760
+email: mpschramm@gmail.com
+address: 906 Mitchell St. | Bryan, TX
+date: last-modified
+nocite: '@*'
+bibliography_peer: bibs/schramm-pr-short.yaml
+bibliography_other: bibs/schramm-tr-short.yaml
+csl: apa-cv.csl
+keep-tex: true
+knitr:
+  opts_chunk: 
+    echo: false
+    message: false
+    warning: false
+    results: asis
+---
+
+```{r setup}
+library(quartoYAAC)
+
+library(googlesheets4)
+library(stringr)
+library(lubridate)
+library(tidyr)
+library(dplyr)
+library(rlang)
+library(dplR)
+
+create_CV_object <-  function(data_location,
+                              source_location = "github.com/mps9506",
+                              sheet_is_publicly_readable = TRUE) {
+
+  cv <- list(
+    links = c()
+  )
+
+
+  if(sheet_is_publicly_readable){
+    # This tells google sheets to not try and authenticate. Note that this will only
+    # work if your sheet has sharing set to "anyone with link can view"
+    googlesheets4::gs4_deauth()
+  } else {
+    # My info is in a public sheet so there's no need to do authentication but if you want
+    # to use a private sheet, then this is the way you need to do it.
+    # designate project-specific cache so we can render Rmd without problems
+    options(gargle_oauth_cache = ".secrets")
+  }
+
+  read_gsheet <- function(sheet_id){
+    googlesheets4::read_sheet(data_location, sheet = sheet_id, skip = 1, col_types = "c")
+  }
+  cv$entries_data  <- read_gsheet(sheet_id = "entries")
+  cv$skills        <- read_gsheet(sheet_id = "language_skills")
+  cv$text_blocks   <- read_gsheet(sheet_id = "text_blocks")
+  cv$contact_info  <- read_gsheet(sheet_id = "contact_info")
+  cv$skills_block  <- read_gsheet(sheet_id = "skills_block")
+
+
+
+  extract_year <- function(dates){
+    date_year <- stringr::str_extract(dates, "(20|19)[0-9]{2}")
+    date_year[is.na(date_year)] <- lubridate::year(lubridate::ymd(Sys.Date())) + 10
+
+    date_year
+  }
+
+  parse_dates <- function(dates){
+
+    date_month <- stringr::str_extract(dates, "(\\w+|\\d+)(?=(\\s|\\/|-)(20|19)[0-9]{2})")
+    date_month[is.na(date_month)] <- "1"
+
+    paste("1", date_month, extract_year(dates), sep = "-") %>%
+      lubridate::dmy()
+  }
+
+  # Clean up entries dataframe to format we need it for printing
+  cv$entries_data %<>%
+    tidyr::unite(
+      tidyr::starts_with('description'),
+      col = "description_bullets",
+      sep = " \\item ",
+      na.rm = TRUE
+    ) %>%
+    dplyr::mutate(
+      description_bullets = ifelse(.data$description_bullets != "", paste0(" \\item ", .data$description_bullets), ""),
+      start = ifelse(.data$start == "NULL", NA, .data$start),
+      end = ifelse(.data$end == "NULL", NA, .data$end),
+      start_year = extract_year(.data$start),
+      end_year = extract_year(.data$end),
+      no_start = is.na(.data$start),
+      has_start = !.data$no_start,
+      no_end = is.na(.data$end),
+      has_end = !.data$no_end,
+      timeline = dplyr::case_when(
+        no_start  & no_end  ~ "N/A",
+        no_start  & has_end ~ as.character(.data$end),
+        has_start & no_end  ~ paste(.data$start, "-", "Current"),
+        TRUE                ~ paste(.data$start, "-", .data$end)
+      )
+    ) %>%
+    dplyr::arrange(dplyr::desc(parse_dates(.data$end))) %>%
+    dplyr::mutate_all(~ ifelse(is.na(.), 'N/A', .))
+
+  cv
+}
+
+
+cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/d/1oeMexIuFWJIJa-xofMLqSvPtg49VceJqM2y3YDqcW-4/edit?usp=sharing")
+```
+
+My primary role over the last seven years has been facilitating water quality 
+planning efforts with state agencies and local stakeholders. I provide expertise 
+in data modeling and assessment using GIS and open source programming tools. My 
+research interests are in implementing and evaluating water quality 
+policies and programs. I'm especially interested in leveraging open data and 
+developing open source tools that enable strong research and planning for myself, 
+collaborators, and the broader water management and research communities.
+
+<!-- 
+Use the class `.sectiontitle` to format first level headings
+Use .fa<Font> to insert a fontawesome icon, a list of 
+icons are included: http://mirrors.ctan.org/fonts/fontawesome5/doc/fontawesome5.pdf
+-->
+
+# Skills {.sectiontitle .faTasks}
+
+```{r}
+print_skills_block(cv_data$skills_block)
+```
+
+
+# Experience {.sectiontitle .faSuitcase}
+
+<!--The yaac document class provides an `experiences` environment: -->
+
+```{r}
+
+cv_data$entries_data |>  
+  filter(section == "research_positions") |> 
+  rename(positiontitle = title,
+         location = loc,
+         startdate = start,
+         enddate = end) |> 
+  mutate(skilltag = NA) |> 
+  mutate(location = latexify(location, doublebackslash = FALSE),
+         institution = latexify(institution, doublebackslash = FALSE)) |> 
+  print_experience_block()
+
+```
+
+
+# Education {.sectiontitle .faGraduationCap}
+
+
+```{r}
+cv_data$entries_data |> 
+  filter(section == "education") |> 
+  rename(end_date = end_year,
+         degree = title) |> 
+  print_education_block()
+
+
+```
+
+# Recent Projects {.sectiontitle .faLaptop}
+
+
+```{r}
+
+x <- data.frame(
+  project_name = c("Texas Coastal Nutrient Input Repository (Phase I)",
+                   "Lower Neches Basin Bacteria Impairments",
+                   "Matagorda Basins Water Quality Planning"),
+  dates = c("2021 - 2023",
+            "2019 - 2023",
+            "2016 - Ongoing"),
+  links = c("\\website{https://tcnir.twri.tamu.edu/}{https://tcnir.twri.tamu.edu/}",
+            "\\website{https://neches.twri.tamu.edu/}{https://neches.twri.tamu.edu/}",
+            "\\website{https://matagordabasin.tamu.edu/}{https://matagordabasin.tamu.edu/}"),
+  description = c("Proof-of-concept project that developed statistical models to estimate daily watershed nutrient loads and evaluate coastal water quality responses. Efforts are underway to secure additional funding for subsequent project phases.",
+                  "Collaborated with TCEQ to engage local stakeholders, conduct technical work for developing bacteria TMDLs, and work with stakholders to develop Implementation Plans aimed at reducing riverine bacteria loads.",
+                  "Led both technical and stakeholder engagement efforts to develop Watershed Protection Plans and TMDLs across four subwatersheds. Secured external funding for a watershed coordinator, septic system and pet waste programs, and water quality education."),
+  tags = c("",
+           "",
+           "")
+)
+
+print_project_block(x)
+```
+
+
+
+# Selected Peer-Reviewed Publications {.sectiontitle .faFile}
+
+:::{#refs_peer}
+:::
+
+
+# Awards {.sectiontitle .faStar}
+
+```{r}
+awards <- cv_data$entries_data |> 
+  dplyr::filter(section == "awards")
+
+out <- glue::glue_data(awards, "\\item [{start}] {title}")
+cat("\\begin{description}", out, "\\end{description}")
+```
+
+
+# References {.sectiontitle .faQuoteLeft}
+
+Available upon request.

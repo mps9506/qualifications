@@ -1,0 +1,98 @@
+---
+references:
+- id: schrammAdcCalculateAntecedant2023
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schrammAdcCalculateAntecedant2023
+  genre: R
+  issued:
+    - year: 2023
+  title: '<span class="nocase">adc</span>: Calculate Antecedant Discharge Conditions'
+  type: software
+  URL: https://CRAN.R-project.org/package=adc
+  version: 1.0.0
+
+- id: schrammDartxDrainageArea2019
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammDartxDrainageArea2019
+  genre: R
+  issued:
+    - year: 2019
+  title: >-
+    <span class="nocase">dartx</span>: drainage area ratio with correction
+    factors
+  type: software
+  URL: https://github.com/mps9506/dartx
+  version: development
+
+- id: schrammEchorAccessEPA2023
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammEchorAccessEPA2023
+  genre: R
+  issued:
+    - year: 2023
+  title: '<span class="nocase">echor</span>: access EPA ''ECHO'' data'
+  type: software
+  URL: https://CRAN.R-project.org/package=echor
+  version: 0.1.7
+
+- id: schrammLdcCalculatePlot2021
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammLdcCalculatePlot2021
+  genre: R
+  issued:
+    - year: 2021
+  title: >-
+    <span class="nocase">ldc</span>: Calculate and plot pollutant load duration
+    curves
+  type: software
+  URL: https://github.com/TxWRI/ldc
+
+- id: schrammRATTAINSAccessEPA2023
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammRATTAINSAccessEPA2023
+  genre: R
+  issued:
+    - year: 2023
+  title: '<span class="nocase">rATTAINS</span>: access EPA ''ATTAINS'' data'
+  type: software
+  URL: https://CRAN.R-project.org/package=rATTAINS
+  version: 0.1.4
+
+- id: schrammTbrfTimebasedRolling2020
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammTbrfTimebasedRolling2020
+  genre: R
+  issued:
+    - year: 2020
+  title: '<span class="nocase">tbrf</span>: time-based rolling functions.'
+  type: software
+  URL: https://CRAN.R-project.org/package=tbrf
+  version: 0.1.5
+
+- id: schrammWd4txInterfaceTexas2019
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammWd4txInterfaceTexas2019
+  genre: R
+  issued:
+    - year: 2019
+  title: >-
+    <span class="nocase">wd4tx: R interface for Texas Water Development Board
+    water data.</span>
+  type: software
+  URL: https://github.com/mps9506/wd4tx
+  version: development
+...

@@ -1,0 +1,462 @@
+---
+references:
+- id: escamillaMidLowerCibolo2019
+  author:
+    - family: Escamilla
+      given: Clare Entwistle
+    - family: Shen
+      given: Xiao
+    - family: Schramm
+      given: Michael P.
+    - family: Gregory
+      given: Lucas
+  citation-key: escamillaMidLowerCibolo2019
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2019
+      month: 5
+  number: TR-512
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  title: Mid and Lower Cibolo Creek Watershed Protection Plan
+  type: report
+  URL: https://twri.tamu.edu/media/5601/tr-512.pdf
+
+- id: jainTechnicalSupportDocument2018
+  author:
+    - family: Jain
+      given: Shubham
+    - family: Ruff
+      given: Stephanie
+    - family: Schramm
+      given: Michael P.
+  citation-key: jainTechnicalSupportDocument2018
+  event-place: Austin, TX
+  genre: Technical Report
+  issued:
+    - year: 2018
+  number: AS-203
+  publisher: Texas Commission on Environmental Quality
+  publisher-place: Austin, TX
+  title: >-
+    Technical Support Document for One Total Maximum Daily Load for Indicator
+    Bacteria in Arenosa Creek
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/arenosa-creek-recreational-108/108-arenosa-creek-tsd-final-10-02-20.pdf
+
+- id: jainTechnicalSupportDocument2021
+  author:
+    - family: Jain
+      given: Shubham
+    - family: Schramm
+      given: Michael P.
+  citation-key: jainTechnicalSupportDocument2021
+  event-place: Austin, Texas
+  genre: Technical Report
+  issued:
+    - year: 2021
+  language: en
+  number: AS-221
+  publisher: Texas Commission on Environmental Quality
+  publisher-place: Austin, Texas
+  source: Zotero
+  title: >-
+    Technical Support Document for One Total Maximum Daily Load for Indicator
+    Bacteria in Lavaca River Above Tidal
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/lavaca-river-above-tidal-rocky-creek-recreational-108/108-lavaca-river-addendum-tsd-2021-october-as-221.pdf
+
+- id: jordanReviewTotalMaximum2023
+  author:
+    - family: Jordan
+      given: Taylor
+    - family: Schramm
+      given: Michael
+    - family: Kikoyo
+      given: Duncan
+    - family: Tague
+      given: Amanda
+  citation-key: jordanReviewTotalMaximum2023
+  event-place: College Station, TX
+  issued:
+    - year: 2023
+  language: en
+  number: TR_549
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  source: Zotero
+  title: >-
+    Review of Total Maximum Daily Load Methods to Address Dissolved Oxygen
+    Impairments Final Report
+  type: report
+  URL: >-
+    https://twri.tamu.edu/publications/technical-reports/2023-technical-reports/tr-549/
+
+- id: kikoyoStreamflowWaterQuality2022
+  author:
+    - family: Kikoyo
+      given: Duncan
+    - family: deVilleneuve
+      given: Stephanie
+    - family: Schramm
+      given: Michael
+    - family: Gregory
+      given: Lucas
+  citation-key: kikoyoStreamflowWaterQuality2022
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2022
+  number: TR-538
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  title: >-
+    Streamflow and Water Quality Properties in the Thompsons Creek Watershed in
+    the Vicinity of Bryan/College Station, 2020–2022
+  type: report
+  URL: >-
+    https://twri.tamu.edu/publications/technical-reports/2022-technical-reports/tr-538/
+
+- id: kikoyoTechnicalSupportDocument2023
+  author:
+    - family: Kikoyo
+      given: Duncan
+    - family: Jordan
+      given: Taylor
+    - family: Jain
+      given: Shubham
+    - family: Schramm
+      given: Michael
+    - family: Gregory
+      given: Lucas
+  citation-key: kikoyoTechnicalSupportDocument2023
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2023
+  language: en
+  number: TR-545
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  source: Zotero
+  title: >-
+    Technical Support Document for Five Total Maximum Daily Loads for Indicator
+    Bacteria in the Thompsons Creek Watershed, Texas
+  type: report
+  URL: https://twri.tamu.edu/media/6171/tr-545.pdf
+
+- id: kramerBrownfieldsRedevelopmentRevitalization2014
+  author:
+    - family: Kramer
+      given: Charles
+    - family: Dsouza
+      given: Craig
+    - family: Schramm
+      given: Michael
+    - family: Griffin
+      given: Maureen
+    - family: Teron
+      given: Lemir
+    - family: Scattone
+      given: Raymond
+    - family: Byrne
+      given: John
+    - family: Kurdgelashvili
+      given: Lado
+  citation-key: kramerBrownfieldsRedevelopmentRevitalization2014
+  event-place: Newark, DE
+  genre: Technical Report
+  issued:
+    - year: 2014
+  publisher: Center for Energy and Environmental Policy, University of Delaware
+  publisher-place: Newark, DE
+  title: 'Brownfields: From Redevelopment to Revitalization'
+  type: report
+  URL: http://udspace.udel.edu/handle/19716/13108
+
+- id: mcmanamayIdentifyingEnvironmentalOpportunities2015
+  author:
+    - family: McManamay
+      given: Ryan A.
+    - family: Troia
+      given: Matthew J.
+    - family: DeRolph
+      given: Christopher R.
+    - family: Bevelhimer
+      given: Mark S.
+    - family: Schramm
+      given: Michael P.
+    - family: Larson
+      given: Kyle B.
+    - family: Tagestad
+      given: Jerry D.
+    - family: Johnson
+      given: Gary E.
+    - family: Jager
+      given: Henriette I.
+  citation-key: mcmanamayIdentifyingEnvironmentalOpportunities2015
+  DOI: 10.13140/rg.2.1.3000.0482
+  event-place: Oak Ridge, Tennessee
+  genre: Technical Report
+  issued:
+    - year: 2015
+  language: en
+  number: ORNL/TM-2014/540
+  publisher: Oak Ridge National Laboratory
+  publisher-place: Oak Ridge, Tennessee
+  title: >-
+    Identifying Environmental Opportunities outside the Hydropower Project
+    Boundary: An Updated Methodology of the Basin Scale Opportunity Assessment
+  title-short: >-
+    Identifying Environmental Opportunities outside the Hydropower Project
+    Boundary
+  type: report
+  URL: http://rgdoi.net/10.13140/RG.2.1.3000.0482
+
+- id: schrammCarancahuaBayWatershed2019
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: deVilleneuve
+      given: Stephanie
+    - family: Jain
+      given: Shubham
+    - family: Berthold
+      given: Allen
+    - family: Mohandass
+      given: Uvashree
+  citation-key: schrammCarancahuaBayWatershed2019
+  event-place: College Station, Texas
+  genre: Technical Report
+  issued:
+    - year: 2019
+  number: TR-514
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, Texas
+  title: Carancahua Bay Watershed Protection Plan
+  type: report
+  URL: >-
+    https://twri.tamu.edu/publications/technical-reports/2019-technical-reports/tr-514/
+
+- id: schrammComparisonDailyStreamflow2021
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Gitter
+      given: Anna
+    - family: Rambo
+      given: Jackie
+    - family: deVilleneuve
+      given: Stephanie
+    - family: Rhodes
+      given: Ed
+    - family: Gregory
+      given: Lucas
+  citation-key: schrammComparisonDailyStreamflow2021
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2021
+      month: 7
+  number: TR-535
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  title: >-
+    Comparison of Daily Streamflow Estimation Methods in the Thompsons Creek
+    Watershed
+  type: report
+  URL: >-
+    https://twri.tamu.edu/publications/technical-reports/2021-technical-reports/tr-535/
+
+- id: schrammEscherichiaColiDissolved2018
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Broad
+      given: Tyson
+    - family: Arsuffi
+      given: Tom
+  citation-key: schrammEscherichiaColiDissolved2018
+  event-place: College Station, Texas
+  genre: Technical Report
+  issued:
+    - year: 2018
+  number: TR-511
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, Texas
+  source: Zotero
+  title: >-
+    *Escherichia coli* and Dissolved Oxygen Trends in the Upper Llano River
+    Watershed, Texas (2001-2016)
+  type: report
+  URL: https://twri.tamu.edu/media/1458/tr-511.pdf
+
+- id: schrammLavacaRiverWatershed2018
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Berthold
+      given: Allen
+    - family: Entwistle
+      given: Clare
+    - family: Peddicord
+      given: Kirby
+  citation-key: schrammLavacaRiverWatershed2018
+  event-place: College Station, Texas
+  genre: Technical Report
+  issued:
+    - year: 2018
+  number: TR-507
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, Texas
+  title: Lavaca River Watershed Protection Plan
+  type: report
+  URL: https://twri.tamu.edu/media/1456/tr-507.pdf
+
+- id: schrammTechnicalSupportDocument2017
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammTechnicalSupportDocument2017
+  event-place: Austin, Texas
+  genre: Technical Report
+  issued:
+    - year: 2017
+  license: All rights reserved
+  publisher: Texas Commission on Environmental Quality
+  publisher-place: Austin, Texas
+  source: Zotero
+  title: >-
+    Technical Support Document for Total Maximum Daily Loads for Indicator
+    Bacteria in Aransas River Above Tidal and Poesta Creek
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/mission-aransas-rivers-recreational-76/76-aransas-poesta-tsd.pdf
+
+- id: schrammTechnicalSupportDocument2020
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Jha
+      given: Achla
+  citation-key: schrammTechnicalSupportDocument2020
+  event-place: Austin, Texas
+  genre: Technical Report
+  issued:
+    - year: 2020
+  number: AS-471
+  publisher: Texas Commission on Environmental Quality
+  publisher-place: Austin, Texas
+  title: >-
+    Technical Support Document for Four Total Maximum Daily Loads for Indicator
+    Bacteria in Neches River Tidal
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/neches-river-tidal-recreational-118/118-as-471-neches-tidal-bacteria-tsd-2020-july.pdf
+
+- id: schrammTechnicalSupportDocument2020a
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Jha
+      given: Achla
+  citation-key: schrammTechnicalSupportDocument2020a
+  event-place: Austin, TX
+  genre: Technical Report
+  issued:
+    - year: 2020
+  publisher: Texas Commission on Environmental Quality
+  publisher-place: Austin, TX
+  source: Zotero
+  title: >-
+    Technical Support Document for Two Total Maximum Daily Loads for Indicator
+    Bacteria in Sandy Creek and Wolf Creek
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/sandy-wolf-creeks-recreational-118/118-sandy-wolf-tsd-2020-june.pdf
+
+- id: schrammTechnicalSupportDocument2020b
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Jha
+      given: Achla
+  citation-key: schrammTechnicalSupportDocument2020b
+  event-place: Austin, Texas
+  genre: Technical Report
+  issued:
+    - year: 2020
+  language: en
+  publisher: Texas Commission on Environmental Quality
+  publisher-place: Austin, Texas
+  source: Zotero
+  title: >-
+    Technical Support Document for One Total Maximum Daily Load for Indicator
+    Bacteria in Hillebrandt Bayou
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/hillebrandt-bayou-recreational-118/118-hillebrandt-tsd-2020june.pdf
+
+- id: schrammTexasCoastalNutrient2023
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schrammTexasCoastalNutrient2023
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2023
+  language: en
+  number: TR-543
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  source: Zotero
+  title: >-
+    Texas Coastal Nutrient Input Repository - Task 4 Report Statistical Models
+    for Nutrient Loading into Lavaca Bay
+  type: report
+  URL: https://twri.tamu.edu/media/6170/tr_543.pdf
+
+- id: schrammTexasCoastalNutrient2023a
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schrammTexasCoastalNutrient2023a
+  event-place: College Station, TX
+  genre: Technical Report
+  issued:
+    - year: 2023
+  language: en
+  number: TR-546
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  source: Zotero
+  title: >-
+    Texas Coastal Nutrient Input Repository - Task 3 Report Lavaca Bay Water
+    Quality Responses to Nutrient Loading
+  type: report
+  URL: https://twri.tamu.edu/media/6194/tr_546.pdf
+
+- id: schrammTresPalaciosCreek2017
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Berthold
+      given: Allen
+    - family: Entwistle
+      given: Clare
+  citation-key: schrammTresPalaciosCreek2017
+  event-place: College Station, Texas
+  genre: Technical Report
+  issued:
+    - year: 2017
+  number: TR-500
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, Texas
+  title: Tres Palacios Creek Watershed Protection Plan
+  type: report
+  URL: https://twri.tamu.edu/media/1449/tr-500.pdf
+...

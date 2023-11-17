@@ -1,0 +1,170 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont, alternative, showLinks, 11pt,
+compact]{yaac-another-awesome-cv}
+
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+% For Pandoc 2.8 to 2.11
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
+% For pandoc 2.11+ using new --citeproc
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\name{Michael}{Schramm}
+\tagline{Researcher \textbar{} Watersheds, water quality and open
+science}
+
+\socialinfo{
+	\email{mpschramm@gmail.com}
+	\smartphone{(910) 232-3760}
+	\address{906 Mitchell St.~\textbar{} Bryan, TX}
+	
+	
+	\github{mps9506}
+	
+}
+
+\usepackage{booktabs}
+\def\toprule{}
+\def\bottomrule{}
+\def\midrule{}
+% Uncomment the following line and use a value from 1.5cm to 2.5cm
+% \setleftcolumnlength{2.5cm}
+
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\selectlanguage{english}\today}}
+		{\textsc{Michael Schramm - Resume}}
+		{\thepage}
+
+My primary role over the last seven years has been facilitating water
+quality planning efforts with state agencies and local stakeholders. I
+provide expertise in data modeling and assessment using GIS and open
+source programming tools. My research interests are in implementing and
+evaluating water quality policies and programs. I'm especially
+interested in leveraging open data and developing open source tools that
+enable strong research and planning for myself, collaborators, and the
+broader water management and research communities.
+
+\sectionTitle{Skills}{\faTasks}
+
+\begin{keywords}\keywordsentry{Communication}{academic/technical writing, public speaking, stakeholder facilitation} \keywordsentry{Project Management}{budgeting, data management, grant writing, proposal development} \keywordsentry{Computing}{ArcGIS, \texttt{git}, GitHub, MS Excel, MS Word, \texttt{Python}, \texttt{R}} \keywordsentry{Watershed Management}{statistical methods for water quality, Total Maximum Daily Loads (TMDLs), water quality policy, watershed planning}\end{keywords}
+
+\sectionTitle{Experience}{\faSuitcase}
+
+\begin{experiences}  \experience
+  {current}{Research Specialist III (40 hours/week)}{Texas A\&M AgriLife Research}{Texas Water Resources Institute}{Aug. 2019}
+{\begin{itemize}
+ \item Responsible for collaborating with internal and external scientists and faculty to design, plan, conduct, and coordinate water focused research and extension projects. Led or collaborated in the development of 25 grants and contracts securing over \$3.6 million in external funding. \item Supervised and mentored graduate students and research staff. Developed guidance and best practice documents for \href{https://txwri.github.io/Figure_Guide/}{data visualization} and \href{https://txwri.github.io/r-manual/}{data analysis software}. \item Led the development, evaluatation, and application of research and statistical methods for water resources planning. Published fifteen technical reports, eight TMDLs, six Implementation Plans, four journal articles, and developed six R software packages (\href{https://github.com/TxWRI/adc}{adc}, \href{https://github.com/mps9506/echor}{echor}, \href{https://github.com/TxWRI/ldc}{ldc}, \href{https://github.com/mps9506/rATTAINS}{rATTAINS}, \href{https://github.com/TxWRI/twriTemplates}{twriTemplates}, \href{https://github.com/TxWRI/wd4tx}{wd4tx}) \item Conducted engagement, education, and extension activites. Provided over 60 public presentations with over 1,000 contact hours to the general public, agency staff, local governments and other stakeholders.
+\end{itemize}}
+{}
+\emptySeparator   \experience
+  {Aug. 2019}{Research Associate (40 hours/week)}{Texas A\&M AgriLife Research}{Texas Water Resources Institute}{May 2016}
+{\begin{itemize}
+ \item Provided technical support and facilitated stakeholder engagement for watershed protection plan and TMDL development. Worked with senior staff to develop and secure external funding.
+\end{itemize}}
+{}
+\emptySeparator   \experience
+  {Feb. 2016}{Research Associate (40 hours/week)}{ORAU\slash ORNL}{Environmental Sciences Division}{Feb. 2014}
+{\begin{itemize}
+ \item Developed databases and methods to assess environmental mitigation at U.S. hydropower facilities. \item Utilized statistical and geospatial methods to assess envirionmental impacts of hydropower facilities. \item Published three peer-reviewed journal articles, two technical reports, and one conference presentation related to research findings.
+\end{itemize}}
+{}
+\emptySeparator   \experience
+  {June 2013}{Graduate Research Assistant (20 hours/week)}{University of Delaware}{Center for Energy and Environmental Policy}{Sept. 2012}
+{\begin{itemize}
+ \item Responsible for interviews, data analysis, and developing policy reccomendations in policy analysis reports for the Delaware General Assembly.
+\end{itemize}}
+{}
+\emptySeparator\end{experiences}
+
+\sectionTitle{Education}{\faGraduationCap}
+
+\begin{scholarship}  \scholarshipentry
+{2013}{Master of Energy and Environmental Policy, University of Delaware}   \scholarshipentry
+{2011}{B.A. Environmental Studies, University of North Carolina - Wilmington}   \scholarshipentry
+{2004}{B.S. Biology, University of North Carolina - Wilmington}\end{scholarship}
+
+\sectionTitle{Recent Projects}{\faLaptop}
+
+\begin{projects}    \project
+  {Texas Coastal Nutrient Input Repository (Phase I)}{2021 - 2023}{\website{https://tcnir.twri.tamu.edu/}{https://tcnir.twri.tamu.edu/}}{Proof-of-concept project that developed statistical models to estimate daily watershed nutrient loads and evaluate coastal water quality responses. Efforts are underway to secure additional funding for subsequent project phases.}
+{}     \project
+  {Lower Neches Basin Bacteria Impairments}{2019 - 2023}{\website{https://neches.twri.tamu.edu/}{https://neches.twri.tamu.edu/}}{Collaborated with TCEQ to engage local stakeholders, conduct technical work for developing bacteria TMDLs, and work with stakholders to develop Implementation Plans aimed at reducing riverine bacteria loads.}
+{}     \project
+  {Matagorda Basins Water Quality Planning}{2016 - Ongoing}{\website{https://matagordabasin.tamu.edu/}{https://matagordabasin.tamu.edu/}}{Led both technical and stakeholder engagement efforts to develop Watershed Protection Plans and TMDLs across four subwatersheds. Secured external funding for a watershed coordinator, septic system and pet waste programs, and water quality education.}
+{}\end{projects}
+
+\sectionTitle{Selected Peer-Reviewed Publications}{\faFile}
+
+\hypertarget{refs_peer}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-schrammTotalMaximumDaily2022}{}}%
+Schramm, M. P., Gitter, A., \& Gregory, L. (2022). Total Maximum Daily
+Loads and \emph{Escherichia coli} trends in Texas freshwater streams.
+\emph{Journal of Contemporary Water Research \& Education}, \emph{176},
+36--49. \url{https://doi.org/10.1111/j.1936-704X.2022.3374.x}
+
+\leavevmode\vadjust pre{\hypertarget{ref-bertholdDirectMailingEducation2021}{}}%
+Berthold, T. A., Olsovsky, T., \& Schramm, M. P. (2021). Direct mailing
+education campaign impacts on the adoption of grazing management
+practices. \emph{Journal of Contemporary Water Research \& Education},
+\emph{174}, 45--60.
+\url{https://doi.org/10.1111/j.1936-704X.2021.3360.x}
+
+\leavevmode\vadjust pre{\hypertarget{ref-schramm_estimating_2021}{}}%
+Schramm, M. P. (2021). Estimating statistical power for detecting long
+term trends in surface water \emph{Escherichia coli} concentrations.
+\emph{Texas Water Journal}, \emph{12}(1), 140--150.
+\url{https://doi.org/10.21423/txj.v12i1.7126}
+
+\leavevmode\vadjust pre{\hypertarget{ref-schramm_synthesis_2016}{}}%
+Schramm, M. P., Bevelhimer, M. S., \& DeRolph, C. R. (2016). A synthesis
+of environmental and recreational mitigation requirements at hydropower
+projects in the United States. \emph{Environmental Science \& Policy},
+\emph{61}, 87--96. \url{https://doi.org/10.1016/j.envsci.2016.03.019}
+
+\end{CSLReferences}
+
+\sectionTitle{Awards}{\faStar}
+
+\begin{description} \item [2023] Universities Council on Water Research (UCOWR), Journal Of Contemporary Water Research and Eduction Paper of the Year \item [2013] Center for Energy and Environmental Policy Leadership Award \item [2011] North Carolina Department of Transportation Environmental Service Scholarship \end{description}
+
+\sectionTitle{References}{\faQuoteLeft}
+
+Available upon request.
+
+\end{document}

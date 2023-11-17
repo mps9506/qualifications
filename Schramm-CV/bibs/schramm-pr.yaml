@@ -1,0 +1,223 @@
+---
+references:
+- id: bertholdDirectMailingEducation2021
+  author:
+    - family: Berthold
+      given: T. A.
+    - family: Olsovsky
+      given: Taylor
+    - family: Schramm
+      given: Michael P.
+  citation-key: bertholdDirectMailingEducation2021
+  container-title: Journal of Contemporary Water Research & Education
+  DOI: 10.1111/j.1936-704X.2021.3360.x
+  issue: '174'
+  issued:
+    - year: 2021
+  page: 45-60
+  title: >-
+    Direct mailing education campaign impacts on the adoption of grazing
+    management practices
+  type: article-journal
+
+- id: bertholdLetTalkPFASInSubmission
+  author:
+    - family: Berthold
+      given: Troy Allen
+    - family: McCrary
+      given: Audrey
+    - family: deVilleneuve
+      given: Stephanie
+    - family: Schramm
+      given: Michael
+  citation-key: bertholdLetTalkPFASInSubmission
+  container-title: In Press
+  issued:
+    - literal: In Submission
+  title: >-
+    Let’s talk about PFAS: Inconsistent public awareness about PFAS and its
+    sources in the United States
+  type: article-journal
+
+- id: cuttingSpillBeansGoodGuide2011
+  author:
+    - family: Cutting
+      given: Robert H.
+    - family: Cahoon
+      given: Lawrence B.
+    - family: Flood
+      given: Jefferson F.
+    - family: Horton
+      given: Laura
+    - family: Schramm
+      given: Michael P.
+  citation-key: cuttingSpillBeansGoodGuide2011
+  container-title: Tulane Environmental Law Journal
+  issue: '291'
+  issued:
+    - year: 2011
+  language: en
+  page: '45'
+  source: Zotero
+  title: >-
+    Spill the beans: GoodGuide, Walmart and EPA use information as efficient,
+    market-based environmental regulation
+  type: article-journal
+  URL: https://www.jstor.org/stable/43294112
+  volume: '24'
+
+- id: derolphPredictingEnvironmentalMitigation2016
+  author:
+    - family: DeRolph
+      given: Christopher R.
+    - family: Schramm
+      given: Michael P.
+    - family: Bevelhimer
+      given: Mark S.
+  citation-key: derolphPredictingEnvironmentalMitigation2016
+  container-title: Science of The Total Environment
+  DOI: 10.1016/j.scitotenv.2016.05.099
+  ISSN: '00489697'
+  issued:
+    - year: 2016
+      month: 10
+  language: en
+  page: 888-918
+  source: Crossref
+  title: >-
+    Predicting environmental mitigation requirements for hydropower projects
+    through the integration of biophysical and socio-political geographies
+  type: article-journal
+  URL: http://linkinghub.elsevier.com/retrieve/pii/S0048969716310294
+  volume: 566-567
+
+- id: pracheilFisheyeViewRiverine2016
+  author:
+    - family: Pracheil
+      given: Brenda M.
+    - family: DeRolph
+      given: Christopher R.
+    - family: Schramm
+      given: Michael P.
+    - family: Bevelhimer
+      given: Mark S.
+  citation-key: pracheilFisheyeViewRiverine2016
+  container-title: Reviews in Fish Biology and Fisheries
+  DOI: 10.1007/s11160-015-9416-8
+  ISSN: 0960-3166, 1573-5184
+  issue: '2'
+  issued:
+    - year: 2016
+      month: 6
+  language: en
+  page: 153-167
+  source: Crossref
+  title: >-
+    A fish-eye view of riverine hydropower systems: the current understanding of
+    the biological response to turbine passage
+  title-short: A fish-eye view of riverine hydropower systems
+  type: article-journal
+  URL: http://link.springer.com/10.1007/s11160-015-9416-8
+  volume: '26'
+
+- id: schrammAssessingLinkagesWatershed2023
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schrammAssessingLinkagesWatershed2023
+  container-title: PeerJ
+  DOI: 10.7717/peerj.16073
+  issued:
+    - year: 2023
+  title: >-
+    Assessing linkages between watershed nutrient loading and water quality in a
+    subtropical estuary with generalized additive models
+  type: article-journal
+
+- id: schrammEffectsHydrokineticTurbine2017
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Bevelhimer
+      given: Mark S.
+    - family: Scherelis
+      given: Constantin
+  citation-key: schrammEffectsHydrokineticTurbine2017
+  container-title: Fisheries Research
+  DOI: 10.1016/j.fishres.2017.01.012
+  ISSN: '01657836'
+  issued:
+    - year: 2017
+      month: 6
+  language: en
+  page: 1-14
+  source: Crossref
+  title: >-
+    Effects of hydrokinetic turbine sound on the behavior of four species of
+    fish within an experimental mesocosm
+  type: article-journal
+  URL: http://linkinghub.elsevier.com/retrieve/pii/S0165783617300218
+  volume: '190'
+
+- id: schrammEstimatingStatisticalPower2021
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammEstimatingStatisticalPower2021
+  container-title: Texas Water Journal
+  DOI: 10.21423/txj.v12i1.7126
+  issue: '1'
+  issued:
+    - year: 2021
+  page: 140-150
+  title: >-
+    Estimating statistical power for detecting long term trends in surface water
+    *Escherichia coli* concentrations
+  type: article-journal
+  volume: '12'
+
+- id: schrammSynthesisEnvironmentalRecreational2016
+  author:
+    - family: Schramm
+      given: Michael P.
+    - family: Bevelhimer
+      given: Mark S.
+    - family: DeRolph
+      given: Chris R.
+  citation-key: schrammSynthesisEnvironmentalRecreational2016
+  container-title: Environmental Science & Policy
+  DOI: 10.1016/j.envsci.2016.03.019
+  ISSN: '14629011'
+  issued:
+    - year: 2016
+      month: 7
+  language: en
+  page: 87-96
+  source: Crossref
+  title: >-
+    A synthesis of environmental and recreational mitigation requirements at
+    hydropower projects in the United States
+  type: article-journal
+  URL: http://linkinghub.elsevier.com/retrieve/pii/S1462901116300752
+  volume: '61'
+
+- id: schrammTotalMaximumDaily2022
+  author:
+    - family: Schramm
+      given: Michael
+    - family: Gitter
+      given: Anna
+    - family: Gregory
+      given: Lucas
+  citation-key: schrammTotalMaximumDaily2022
+  container-title: Journal of Contemporary Water Research & Education
+  DOI: 10.1111/j.1936-704X.2022.3374.x
+  issue: '176'
+  issued:
+    - year: 2022
+  page: 36-49
+  title: >-
+    Total Maximum Daily Loads and *Escherichia coli* trends in Texas freshwater
+    streams
+  type: article-journal
+...
