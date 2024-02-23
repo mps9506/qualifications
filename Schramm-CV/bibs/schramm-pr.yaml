@@ -20,7 +20,7 @@ references:
     management practices
   type: article-journal
 
-- id: bertholdLetTalkPFASInSubmission
+- id: bertholdLetTalkPFAS2023
   author:
     - family: Berthold
       given: Troy Allen
@@ -30,14 +30,18 @@ references:
       given: Stephanie
     - family: Schramm
       given: Michael
-  citation-key: bertholdLetTalkPFASInSubmission
-  container-title: In Press
+  citation-key: bertholdLetTalkPFAS2023
+  container-title: PLoS ONE
+  DOI: 10.1371/journal.pone.0294134
+  issue: '11'
   issued:
-    - literal: In Submission
+    - year: 2023
+  page: e0294134
   title: >-
     Let’s talk about PFAS: Inconsistent public awareness about PFAS and its
     sources in the United States
   type: article-journal
+  volume: '18'
 
 - id: cuttingSpillBeansGoodGuide2011
   author:

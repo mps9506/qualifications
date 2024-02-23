@@ -69,6 +69,29 @@ references:
   URL: >-
     https://www.tceq.texas.gov/downloads/water-quality/tmdl/lavaca-river-above-tidal-rocky-creek-recreational-108/108-lavaca-river-addendum-tsd-2021-october-as-221.pdf
 
+- id: jainTechnicalSupportDocument2023
+  author:
+    - family: Jain
+      given: Shubham
+    - family: Schramm
+      given: Michael
+  citation-key: jainTechnicalSupportDocument2023
+  event-place: Austin, Texas
+  genre: Technical Report
+  issued:
+    - year: 2023
+  language: en
+  number: AS-484
+  publisher: Texas Commision on Environmental Quality
+  publisher-place: Austin, Texas
+  source: Zotero
+  title: >-
+    Technical Support Document for One Total Maximum Daily Load for Indicator
+    Bacteria in Poesta Creek
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/mission-aransas-rivers-recreational-76/as-484-76a-poesta_creek-tsd.pdf
+
 - id: jordanReviewTotalMaximum2023
   author:
     - family: Jordan
@@ -459,4 +482,27 @@ references:
   title: Tres Palacios Creek Watershed Protection Plan
   type: report
   URL: https://twri.tamu.edu/media/1449/tr-500.pdf
+
+- id: yangTechnicalSupportDocument2023
+  author:
+    - family: Yang
+      given: Luna
+    - family: Schramm
+      given: Michael
+  citation-key: yangTechnicalSupportDocument2023
+  event-place: Austin, Texas
+  genre: Technical Report
+  issued:
+    - year: 2023
+  language: en
+  number: AS-485
+  publisher: Texas Commision on Environmental Quality
+  publisher-place: Austin, Texas
+  source: Zotero
+  title: >-
+    Technical Support Document for One Total Maximum Daily Load for Indicator
+    Bacteria in Cedar Creek
+  type: report
+  URL: >-
+    https://www.tceq.texas.gov/downloads/water-quality/tmdl/lufkin-area-watersheds-recreational-118/as-485-118h-cedar_creek_tsd.pdf
 ...
