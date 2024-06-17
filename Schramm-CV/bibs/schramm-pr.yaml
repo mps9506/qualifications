@@ -180,6 +180,25 @@ references:
   type: article-journal
   volume: '12'
 
+- id: schrammMetaanalysisImpactsBestAccepted
+  author:
+    - family: Schramm
+      given: Michael P
+    - family: Kikoyo
+      given: Duncan
+    - family: Wright
+      given: Janelle
+    - family: Jain
+      given: Shubham
+  citation-key: schrammMetaanalysisImpactsBestAccepted
+  container-title: Frontiers in Water
+  issued:
+    - literal: Accepted
+  title: >-
+    A meta-analysis of the impacts of best management practices on nonpoint
+    source pollutant concentration
+  type: article-journal
+
 - id: schrammSynthesisEnvironmentalRecreational2016
   author:
     - family: Schramm
