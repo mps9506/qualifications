@@ -1,0 +1,118 @@
+---
+references:
+- id: bertholdDirectMailingEducation2021
+  author:
+    - family: Berthold
+      given: T. A.
+    - family: Olsovsky
+      given: Taylor
+    - family: Schramm
+      given: Michael P.
+  citation-key: bertholdDirectMailingEducation2021
+  container-title: Journal of Contemporary Water Research & Education
+  DOI: 10.1111/j.1936-704X.2021.3360.x
+  issue: '174'
+  issued:
+    - year: 2021
+  page: 45-60
+  title: >-
+    Direct mailing education campaign impacts on the adoption of grazing
+    management practices
+  type: article-journal
+
+- id: bertholdLetTalkPFAS2023
+  author:
+    - family: Berthold
+      given: Troy Allen
+    - family: McCrary
+      given: Audrey
+    - family: deVilleneuve
+      given: Stephanie
+    - family: Schramm
+      given: Michael
+  citation-key: bertholdLetTalkPFAS2023
+  container-title: PLoS ONE
+  DOI: 10.1371/journal.pone.0294134
+  issue: '11'
+  issued:
+    - year: 2023
+  page: e0294134
+  title: >-
+    Let’s talk about PFAS: Inconsistent public awareness about PFAS and its
+    sources in the United States
+  type: article-journal
+  volume: '18'
+
+- id: schrammAssessingLinkagesWatershed2023
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schrammAssessingLinkagesWatershed2023
+  container-title: PeerJ
+  DOI: 10.7717/peerj.16073
+  issued:
+    - year: 2023
+  title: >-
+    Assessing linkages between watershed nutrient loading and water quality in a
+    subtropical estuary with generalized additive models
+  type: article-journal
+
+- id: schrammEstimatingStatisticalPower2021
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammEstimatingStatisticalPower2021
+  container-title: Texas Water Journal
+  DOI: 10.21423/txj.v12i1.7126
+  issue: '1'
+  issued:
+    - year: 2021
+  page: 140-150
+  title: >-
+    Estimating statistical power for detecting long term trends in surface water
+    *Escherichia coli* concentrations
+  type: article-journal
+  volume: '12'
+
+- id: schrammMetaanalysisImpactsBest2024
+  author:
+    - family: Schramm
+      given: Michael P
+    - family: Kikoyo
+      given: Duncan
+    - family: Wright
+      given: Janelle
+    - family: Jain
+      given: Shubham
+  citation-key: schrammMetaanalysisImpactsBest2024
+  container-title: Frontiers in Water
+  DOI: 10.3389/frwa.2024.1397615
+  issue: '1397615'
+  issued:
+    - year: 2024
+  title: >-
+    A meta-analysis of the impacts of best management practices on nonpoint
+    source pollutant concentration
+  type: article-journal
+  volume: '6'
+
+- id: schrammTotalMaximumDaily2022
+  author:
+    - family: Schramm
+      given: Michael
+    - family: Gitter
+      given: Anna
+    - family: Gregory
+      given: Lucas
+  citation-key: schrammTotalMaximumDaily2022
+  container-title: Journal of Contemporary Water Research & Education
+  DOI: 10.1111/j.1936-704X.2022.3374.x
+  issue: '176'
+  issued:
+    - year: 2022
+  page: 36-49
+  title: >-
+    Total Maximum Daily Loads and *Escherichia coli* trends in Texas freshwater
+    streams
+  type: article-journal
+...

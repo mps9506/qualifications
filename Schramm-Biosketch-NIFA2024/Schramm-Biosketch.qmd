@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Biographical Sketch
 format:
   quarto-cv-pdf: default
 author: Michael Schramm
@@ -16,7 +16,6 @@ bibliography:
  peer: bibs/schramm-pr.yaml
  other: bibs/schramm-tr.yaml
  data: bibs/schramm-data.yaml
- software: bibs/schramm-software.yaml
 csl: https://raw.githubusercontent.com/mps9506/quarto-cv/main/apa-cv.csl
 validate-yaml: false
 ---
@@ -164,6 +163,7 @@ print_skills_block <- function(cv) {
 }
 
 cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/d/1oeMexIuFWJIJa-xofMLqSvPtg49VceJqM2y3YDqcW-4/edit?usp=sharing")
+
 ```
 
 
@@ -173,11 +173,9 @@ cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/
 \textsc{Texas A\&M AgriLife Research \hfill May 2016 - current}\newline
 *Texas Water Resources Institute*
 
-*    Research Specialist IV (Sept. 2023 - current)
-*    Research Specialist III (Aug. 2019 - Aug. 2023)
-*    Research Associate (May 2016 - Aug. 2019)
+*    Research Specialist IV (Sept. 2023 - current); Research Specialist III (Aug. 2019 - Aug. 2023); Research Associate (May 2016 - Aug. 2019)
 
-     Lead and collaborate on watershed management and water quality assessment projects. Responsible for cultivating and maintaining relationships with project sponsors, developing and securing external funding, and carrying out projects. Develop internal and external facing open-source tools for watershed planning, data analysis, and data sharing. 
+     Lead and collaborate on watershed management and water quality assessment projects. Develop internal and external facing open-source tools for watershed planning, data analysis, and data sharing. Provide data science and statistical support for senior PIs and graduate students.
 
 \textsc{Oak Ridge National Labratory/}\newline 
 \textsc{Oak Ridge Associated Universities \hfill Feb. 2014 - Feb. 2106}\newline
@@ -194,6 +192,10 @@ cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/
 
      Provided research, data analysis, and conducted interviews for environmental policy analysis reports commissioned by the Delaware General Assembly. Policy analysis work focused on green infrastructure promotion and revitalization of brownfield sites.
 
+# Synergistic Activities
+
+Ongoing Watershed Protection Planning and Total Maximum Daily Load development with state agencies (TCEQ, TSSWCB) that lead to stakeholder engagement, workshops, and implementation of best management practices to reduce nonpoint source pollutant loading to waterbodies.
+
 # Education
 
 ```{r education}
@@ -208,8 +210,6 @@ cv_data |>
 ```
 
 
-
-
 # Research Area
 
 ```{r research}
@@ -220,42 +220,15 @@ cv_data |>
   print_text_block('research')
 ```
 
-# Skills
 
-```{r skills}
-#| echo: false
-#| output: asis
+# Grants Received
 
-cv_data |> 
-  print_text_block('skills')
-```
-
-# Peer Reviewed Articles
-
-::: {#refs-peer}
-:::
-
-# Technical Reports
-
-::: {#refs-other}
-:::
-
-# Software
-
-::: {#refs-software}
-:::
-
-# Datasets
-
-::: {#refs-data}
-:::
-
-
-# Grants and Contracts
 
 ```{r projects}
 #| echo: false
 #| output: asis
+
+cv_data$entries_data <- cv_data$entries_data |> filter(section == "grant_project") |> arrange(desc(start)) |> filter(title %in% c("Assessment of PFAS concentrations and loadings in the Lavaca Bay watershed. Role: PI", "Sandy Creek Watershed Monitoring and Characterization. Role: PI", "Regional Agricultural BMP Planning Database. Role: PI", "Texas Coastal Nutrient Input Repository; Role: PI"))
 
 cv_data |> 
   print_section('grant_project',
@@ -265,46 +238,10 @@ cv_data |>
 ```
 
 
-# Awards
+# Refereed Publications (prior 4-years)
 
-```{r awards}
-#| echo: false
-#| output: asis
-
-cv_data |> 
-  print_section('awards',
-                glue_template = "
-                {title} \n\n
-                ")
-```
+::: {#refs-peer}
+:::
 
 
-# Service
-
-## Review Committees
-
-```{r committee}
-#| echo: false
-#| output: asis
-
-cv_data |> 
-  print_section('committee',
-                glue_template = "
-                {timeline}: {title} \n
-                ")
-```
-
-
-## Peer Review
-
-```{r peerrev}
-#| echo: false
-#| output: asis
-
-cv_data |> 
-  print_section('j_peer_review',
-                glue_template = "
-                *{title}* \n
-                ")
-```
 
