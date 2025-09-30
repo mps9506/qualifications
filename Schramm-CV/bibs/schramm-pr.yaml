@@ -95,6 +95,52 @@ references:
   URL: http://linkinghub.elsevier.com/retrieve/pii/S0048969716310294
   volume: 566-567
 
+- id: jainDerivingHydrologicalInferences
+  author:
+    - family: Jain
+      given: Shubham
+    - family: Kathuria
+      given: Dhruva
+    - family: Srinivasan
+      given: Raghavan
+    - family: Schramm
+      given: Michael
+    - family: Bawa
+      given: Arun
+    - family: Ale
+      given: Srinivasulu
+    - family: Jeong
+      given: Jaehak
+    - family: White
+      given: Michael
+  citation-key: jainDerivingHydrologicalInferences
+  container-title: Journal of Hydrology
+  status: in revision
+  title: >-
+    Deriving hydrological inferences from a machine learning model to understand
+    the physical drivers of flow duration curves
+  type: article-journal
+
+- id: palmerPerceptionsDrinkingWater
+  author:
+    - family: Palmer
+      given: Karissa
+    - family: Berthold
+      given: T. Allen
+    - family: McCrary
+      given: Audrey
+    - family: deVilleneuve
+      given: Stephanie
+    - family: Schramm
+      given: Michael
+    - family: Leggette
+      given: Holli R.
+  citation-key: palmerPerceptionsDrinkingWater
+  container-title: Journal of the American Water Resources Association
+  status: in press
+  title: 'Perceptions of drinking water and safety: a public survey of U.S. residents'
+  type: article-journal
+
 - id: pracheilFisheyeViewRiverine2016
   author:
     - family: Pracheil

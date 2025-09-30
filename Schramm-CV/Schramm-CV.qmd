@@ -177,7 +177,7 @@ cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/
 *    Research Specialist III (Aug. 2019 - Aug. 2023)
 *    Research Associate (May 2016 - Aug. 2019)
 
-     Lead and collaborate on watershed management and water quality assessment projects. Responsible for cultivating and maintaining relationships with project sponsors, developing and securing external funding, and carrying out projects. Develop internal and external facing open-source tools for watershed planning, data analysis, and data sharing. 
+     Leads watershed management and water quality assessment projects. Responsible for cultivating and maintaining relationships with project sponsors, developing and securing external funding, and succesfully executing projects. Develops internal and external facing open-source tools for watershed planning, data analysis, and data sharing. 
 
 \textsc{Oak Ridge National Labratory/}\newline 
 \textsc{Oak Ridge Associated Universities \hfill Feb. 2014 - Feb. 2106}\newline
@@ -185,7 +185,7 @@ cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/
 
 *    Research Associate (Feb. 2014 - Feb. 2106)
 
-     Collaborated on projects focused on improving the understanding of environmental impacts and mitigation of hydropower technologies. Work included database development, statistical analysis, experiments, and publication. 
+     Collaborator on projects that improved the understanding of environmental impacts and mitigation of hydropower technologies. Work included database development, statistical analysis, experiments, and publication. 
 
 \textsc{University of Delaware \hfill Sept. 2012 - June 2013}\newline
 *Center for Energy and Environmental Policy*
