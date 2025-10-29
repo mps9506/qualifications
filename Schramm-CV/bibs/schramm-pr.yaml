@@ -121,7 +121,7 @@ references:
     the physical drivers of flow duration curves
   type: article-journal
 
-- id: palmerPerceptionsDrinkingWater
+- id: palmerPerceptionsDrinkingWater2025
   author:
     - family: Palmer
       given: Karissa
@@ -135,11 +135,23 @@ references:
       given: Michael
     - family: Leggette
       given: Holli R.
-  citation-key: palmerPerceptionsDrinkingWater
-  container-title: Journal of the American Water Resources Association
-  status: in press
+  citation-key: palmerPerceptionsDrinkingWater2025
+  container-title: JAWRA Journal of the American Water Resources Association
+  container-title-short: J American Water Resour Assoc
+  DOI: 10.1111/1752-1688.70059
+  ISSN: 1093-474X, 1752-1688
+  issue: '5'
+  issued:
+    - year: 2025
+      month: 10
+  language: en
+  page: e70059
+  source: DOI.org (Crossref)
   title: 'Perceptions of drinking water and safety: a public survey of U.S. residents'
+  title-short: Perceptions of drinking water and safety
   type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.70059
+  volume: '61'
 
 - id: pracheilFisheyeViewRiverine2016
   author:
