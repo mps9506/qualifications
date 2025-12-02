@@ -115,7 +115,8 @@ references:
       given: Michael
   citation-key: jainDerivingHydrologicalInferences
   container-title: Journal of Hydrology
-  status: in revision
+  status: in press
+  DOI: 10.1016/j.jhydrol.2025.134687
   title: >-
     Deriving hydrological inferences from a machine learning model to understand
     the physical drivers of flow duration curves
