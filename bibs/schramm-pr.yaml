@@ -1,223 +1,409 @@
 ---
 references:
-- id: bertholdDirectMailingEducation2021
+-
+  id: bertholdDirectMailingEducation2021
   author:
-    - family: Berthold
+    -
+      family: Berthold
       given: T. A.
-    - family: Olsovsky
+    -
+      family: Olsovsky
       given: Taylor
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael P.
   citation-key: bertholdDirectMailingEducation2021
   container-title: Journal of Contemporary Water Research & Education
+  container-title-short: J. Contemp. Water Res. Educ.
   DOI: 10.1111/j.1936-704X.2021.3360.x
   issue: '174'
   issued:
-    - year: 2021
-  page: 45-60
-  title: >-
-    Direct mailing education campaign impacts on the adoption of grazing
-    management practices
+    -
+      year: 2021
+  page: 45–60
+  title: Direct mailing education campaign impacts on the adoption of grazing management practices
   type: article-journal
 
-- id: bertholdLetTalkPFASInSubmission
+-
+  id: bertholdLetTalkPFAS2023
   author:
-    - family: Berthold
+    -
+      family: Berthold
       given: Troy Allen
-    - family: McCrary
+    -
+      family: McCrary
       given: Audrey
-    - family: deVilleneuve
+    -
+      family: deVilleneuve
       given: Stephanie
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael
-  citation-key: bertholdLetTalkPFASInSubmission
-  container-title: In Press
+  citation-key: bertholdLetTalkPFAS2023
+  container-title: PLoS ONE
+  DOI: 10.1371/journal.pone.0294134
+  issue: '11'
   issued:
-    - literal: In Submission
-  title: >-
-    Let’s talk about PFAS: Inconsistent public awareness about PFAS and its
-    sources in the United States
+    -
+      year: 2023
+  page: e0294134
+  title: 'Let’s talk about PFAS: Inconsistent public awareness about PFAS and its sources in the United States'
   type: article-journal
+  volume: '18'
 
-- id: cuttingSpillBeansGoodGuide2011
+-
+  id: cuttingSpillBeansGoodGuide2011
   author:
-    - family: Cutting
+    -
+      family: Cutting
       given: Robert H.
-    - family: Cahoon
+    -
+      family: Cahoon
       given: Lawrence B.
-    - family: Flood
+    -
+      family: Flood
       given: Jefferson F.
-    - family: Horton
+    -
+      family: Horton
       given: Laura
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael P.
   citation-key: cuttingSpillBeansGoodGuide2011
   container-title: Tulane Environmental Law Journal
+  container-title-short: Tulane Environ. Law J.
   issue: '291'
   issued:
-    - year: 2011
+    -
+      year: 2011
   language: en
   page: '45'
   source: Zotero
-  title: >-
-    Spill the beans: GoodGuide, Walmart and EPA use information as efficient,
-    market-based environmental regulation
+  title: 'Spill the beans: GoodGuide, Walmart and EPA use information as efficient, market-based environmental regulation'
   type: article-journal
   URL: https://www.jstor.org/stable/43294112
   volume: '24'
 
-- id: derolphPredictingEnvironmentalMitigation2016
+-
+  id: derolphPredictingEnvironmentalMitigation2016
   author:
-    - family: DeRolph
+    -
+      family: DeRolph
       given: Christopher R.
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael P.
-    - family: Bevelhimer
+    -
+      family: Bevelhimer
       given: Mark S.
   citation-key: derolphPredictingEnvironmentalMitigation2016
   container-title: Science of The Total Environment
+  container-title-short: Sci. Total Environ.
   DOI: 10.1016/j.scitotenv.2016.05.099
   ISSN: '00489697'
   issued:
-    - year: 2016
+    -
+      year: 2016
       month: 10
   language: en
-  page: 888-918
+  page: 888–918
   source: Crossref
-  title: >-
-    Predicting environmental mitigation requirements for hydropower projects
-    through the integration of biophysical and socio-political geographies
+  title: Predicting environmental mitigation requirements for hydropower projects through the integration of biophysical and socio-political geographies
   type: article-journal
   URL: http://linkinghub.elsevier.com/retrieve/pii/S0048969716310294
-  volume: 566-567
+  volume: 566–567
 
-- id: pracheilFisheyeViewRiverine2016
+-
+  id: jainDerivingHydrologicalInferences2026
   author:
-    - family: Pracheil
+    -
+      family: Jain
+      given: Shubham
+    -
+      family: Kathuria
+      given: Dhruva
+    -
+      family: Srinivasan
+      given: Raghavan
+    -
+      family: Schramm
+      given: Michael
+    -
+      family: Bawa
+      given: Arun
+    -
+      family: Ale
+      given: Srinivasulu
+    -
+      family: Jeong
+      given: Jaehak
+    -
+      family: White
+      given: Michael
+  citation-key: jainDerivingHydrologicalInferences2026
+  container-title: Journal of Hydrology
+  container-title-short: J. Hydrol.
+  DOI: 10.1016/j.jhydrol.2025.134687
+  issued:
+    -
+      year: 2026
+  title: Deriving hydrological inferences from a machine learning model to understand the physical drivers of flow duration curves
+  type: article-journal
+  volume: '665'
+
+-
+  id: palmerPerceptionsDrinkingWater2025
+  author:
+    -
+      family: Palmer
+      given: Karissa
+    -
+      family: Berthold
+      given: T. Allen
+    -
+      family: McCrary
+      given: Audrey
+    -
+      family: deVilleneuve
+      given: Stephanie
+    -
+      family: Schramm
+      given: Michael
+    -
+      family: Leggette
+      given: Holli R.
+  citation-key: palmerPerceptionsDrinkingWater2025
+  container-title: JAWRA Journal of the American Water Resources Association
+  container-title-short: JAWRA J. Am. Water Resour. Assoc.
+  DOI: 10.1111/1752-1688.70059
+  ISSN: 1093-474X, 1752-1688
+  issue: '5'
+  issued:
+    -
+      year: 2025
+      month: 10
+  language: en
+  page: e70059
+  source: DOI.org (Crossref)
+  title: 'Perceptions of drinking water and safety: a public survey of U.S. residents'
+  title-short: Perceptions of drinking water and safety
+  type: article-journal
+  URL: https://onlinelibrary.wiley.com/doi/10.1111/1752-1688.70059
+  volume: '61'
+
+-
+  id: pracheilFisheyeViewRiverine2016
+  author:
+    -
+      family: Pracheil
       given: Brenda M.
-    - family: DeRolph
+    -
+      family: DeRolph
       given: Christopher R.
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael P.
-    - family: Bevelhimer
+    -
+      family: Bevelhimer
       given: Mark S.
   citation-key: pracheilFisheyeViewRiverine2016
   container-title: Reviews in Fish Biology and Fisheries
+  container-title-short: Rev. Fish Biol. Fish.
   DOI: 10.1007/s11160-015-9416-8
   ISSN: 0960-3166, 1573-5184
   issue: '2'
   issued:
-    - year: 2016
+    -
+      year: 2016
       month: 6
   language: en
-  page: 153-167
+  page: 153–167
   source: Crossref
-  title: >-
-    A fish-eye view of riverine hydropower systems: the current understanding of
-    the biological response to turbine passage
+  title: 'A fish-eye view of riverine hydropower systems: the current understanding of the biological response to turbine passage'
   title-short: A fish-eye view of riverine hydropower systems
   type: article-journal
   URL: http://link.springer.com/10.1007/s11160-015-9416-8
   volume: '26'
 
-- id: schrammAssessingLinkagesWatershed2023
+-
+  id: rodriguezPolyfluoroalkylSubstancesSurface2026
   author:
-    - family: Schramm
+    -
+      family: Rodriguez
+      given: Chloe A.
+    -
+      family: Schramm
+      given: Michael
+    -
+      family: Postma
+      given: Shaylynn
+    -
+      family: McDonald
+      given: Thomas J.
+    -
+      family: Brinkmeyer-Langford
+      given: Candice
+    -
+      family: Ma
+      given: Xingmao
+  citation-key: rodriguezPolyfluoroalkylSubstancesSurface2026
+  container-title: ACS ES&T Water
+  container-title-short: ACS EST Water
+  DOI: 10.1021/acsestwater.6c00886
+  ISSN: 2690-0637
+  issued:
+    -
+      year: 2026
+      month: 9
+      day: 28
+  language: en
+  license: https://creativecommons.org/licenses/by/4.0/
+  source: DOI.org (Crossref)
+  title: 'Per- and polyfluoroalkyl substances in surface water and fluvial sediments of a rural Gulf Coast watershed: A  year-long spatiotemporal assessment'
+  title-short: Per- and polyfluoroalkyl substances in surface waterand fluvial sediments of a rural gulf coast watershed
+  type: article-journal
+  URL: https://pubs.acs.org/aewcaa/article/doi/10.1021/acsestwater.6c00886/5440199/Per-and-Polyfluoroalkyl-Substances-in-Surface
+
+-
+  id: schrammAssessingLinkagesWatershed2023
+  author:
+    -
+      family: Schramm
       given: Michael
   citation-key: schrammAssessingLinkagesWatershed2023
   container-title: PeerJ
   DOI: 10.7717/peerj.16073
   issued:
-    - year: 2023
-  title: >-
-    Assessing linkages between watershed nutrient loading and water quality in a
-    subtropical estuary with generalized additive models
+    -
+      year: 2023
+  title: Assessing linkages between watershed nutrient loading and water quality in a subtropical estuary with generalized additive models
   type: article-journal
 
-- id: schrammEffectsHydrokineticTurbine2017
+-
+  id: schrammEffectsHydrokineticTurbine2017
   author:
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael P.
-    - family: Bevelhimer
+    -
+      family: Bevelhimer
       given: Mark S.
-    - family: Scherelis
+    -
+      family: Scherelis
       given: Constantin
   citation-key: schrammEffectsHydrokineticTurbine2017
   container-title: Fisheries Research
+  container-title-short: Fish. Res.
   DOI: 10.1016/j.fishres.2017.01.012
   ISSN: '01657836'
   issued:
-    - year: 2017
+    -
+      year: 2017
       month: 6
   language: en
-  page: 1-14
+  page: 1–14
   source: Crossref
-  title: >-
-    Effects of hydrokinetic turbine sound on the behavior of four species of
-    fish within an experimental mesocosm
+  title: Effects of hydrokinetic turbine sound on the behavior of four species of fish within an experimental mesocosm
   type: article-journal
   URL: http://linkinghub.elsevier.com/retrieve/pii/S0165783617300218
   volume: '190'
 
-- id: schrammEstimatingStatisticalPower2021
+-
+  id: schrammEstimatingStatisticalPower2021
   author:
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael P.
   citation-key: schrammEstimatingStatisticalPower2021
   container-title: Texas Water Journal
+  container-title-short: Tex. Water J.
   DOI: 10.21423/txj.v12i1.7126
   issue: '1'
   issued:
-    - year: 2021
-  page: 140-150
-  title: >-
-    Estimating statistical power for detecting long term trends in surface water
-    *Escherichia coli* concentrations
+    -
+      year: 2021
+  page: 140–150
+  title: Estimating statistical power for detecting long term trends in surface water *Escherichia coli* concentrations
   type: article-journal
   volume: '12'
 
-- id: schrammSynthesisEnvironmentalRecreational2016
+-
+  id: schrammMetaanalysisImpactsBest2024
   author:
-    - family: Schramm
+    -
+      family: Schramm
+      given: Michael P
+    -
+      family: Kikoyo
+      given: Duncan
+    -
+      family: Wright
+      given: Janelle
+    -
+      family: Jain
+      given: Shubham
+  citation-key: schrammMetaanalysisImpactsBest2024
+  container-title: Frontiers in Water
+  container-title-short: Front. Water
+  DOI: 10.3389/frwa.2024.1397615
+  issue: '1397615'
+  issued:
+    -
+      year: 2024
+  title: A meta-analysis of the impacts of best management practices on nonpoint source pollutant concentration
+  type: article-journal
+  volume: '6'
+
+-
+  id: schrammSynthesisEnvironmentalRecreational2016
+  author:
+    -
+      family: Schramm
       given: Michael P.
-    - family: Bevelhimer
+    -
+      family: Bevelhimer
       given: Mark S.
-    - family: DeRolph
+    -
+      family: DeRolph
       given: Chris R.
   citation-key: schrammSynthesisEnvironmentalRecreational2016
   container-title: Environmental Science & Policy
+  container-title-short: Environ. Sci. Policy
   DOI: 10.1016/j.envsci.2016.03.019
   ISSN: '14629011'
   issued:
-    - year: 2016
+    -
+      year: 2016
       month: 7
   language: en
-  page: 87-96
+  page: 87–96
   source: Crossref
-  title: >-
-    A synthesis of environmental and recreational mitigation requirements at
-    hydropower projects in the United States
+  title: A synthesis of environmental and recreational mitigation requirements at hydropower projects in the United States
   type: article-journal
   URL: http://linkinghub.elsevier.com/retrieve/pii/S1462901116300752
   volume: '61'
 
-- id: schrammTotalMaximumDaily2022
+-
+  id: schrammTotalMaximumDaily2022
   author:
-    - family: Schramm
+    -
+      family: Schramm
       given: Michael
-    - family: Gitter
+    -
+      family: Gitter
       given: Anna
-    - family: Gregory
+    -
+      family: Gregory
       given: Lucas
   citation-key: schrammTotalMaximumDaily2022
   container-title: Journal of Contemporary Water Research & Education
+  container-title-short: J. Contemp. Water Res. Educ.
   DOI: 10.1111/j.1936-704X.2022.3374.x
   issue: '176'
   issued:
-    - year: 2022
-  page: 36-49
-  title: >-
-    Total Maximum Daily Loads and *Escherichia coli* trends in Texas freshwater
-    streams
+    -
+      year: 2022
+  page: 36–49
+  title: Total Maximum Daily Loads and *Escherichia coli* trends in Texas freshwater streams
   type: article-journal
 ...

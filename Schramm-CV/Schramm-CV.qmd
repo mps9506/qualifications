@@ -177,10 +177,10 @@ cv_data <- create_CV_object(data_location="https://docs.google.com/spreadsheets/
 *    Research Specialist III (Aug. 2019 - Aug. 2023)
 *    Research Associate (May 2016 - Aug. 2019)
 
-     Leads watershed management and water quality assessment projects. Responsible for cultivating and maintaining relationships with project sponsors, developing and securing external funding, and succesfully executing projects. Develops internal and external facing open-source tools for watershed planning, data analysis, and data sharing. 
+     Leads watershed management and water quality assessment projects. Responsible for cultivating and maintaining relationships with project sponsors, developing and securing external funding, and successfully executing projects. Develops internal and external facing open-source tools for watershed planning, data analysis, and data sharing. 
 
-\textsc{Oak Ridge National Labratory/}\newline 
-\textsc{Oak Ridge Associated Universities \hfill Feb. 2014 - Feb. 2106}\newline
+\textsc{Oak Ridge National Laboratory/}\newline 
+\textsc{Oak Ridge Associated Universities \hfill Feb. 2014 - Feb. 2016}\newline
 *Environmental Sciences Division* 
 
 *    Research Associate (Feb. 2014 - Feb. 2106)
@@ -253,17 +253,19 @@ cv_data |>
 
 # Grants and Contracts
 
+Total external funding as PI or co-PI: $3.5M
+
+\begin{itemize}[leftmargin=2em, itemindent=-1em]
 ```{r projects}
 #| echo: false
 #| output: asis
-
 cv_data |> 
   print_section('grant_project',
                 glue_template = "
-                {timeline} *{institution}*: {title}. Amount: {loc}. \\newline \\newline
+                \\item {timeline}  {institution}: {title}. Amount: \\{loc}.
                 ")
 ```
-
+\end{itemize}
 
 # Awards
 
