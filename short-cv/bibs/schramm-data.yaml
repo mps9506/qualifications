@@ -1,0 +1,92 @@
+---
+references:
+- id: bevelhimerNonFederalHydropowerMitigation2015
+  author:
+    - family: Bevelhimer
+      given: Mark S.
+    - family: Schramm
+      given: Michael P
+    - family: DeRolph
+      given: Christopher R
+  citation-key: bevelhimerNonFederalHydropowerMitigation2015
+  issued:
+    - year: 2015
+  publisher: Oak Ridge National Laboratory
+  title: Non-Federal Hydropower Mitigation Database
+  type: dataset
+  URL: https://hydrosource.ornl.gov/dataset/us-hydropower-mitigation-database
+
+- id: kikoyoTWRINonpointSource2023
+  author:
+    - family: Kikoyo
+      given: Duncan
+    - family: Jain
+      given: Shubham
+    - family: Wright
+      given: Janelle
+    - family: Schramm
+      given: Michael P
+  citation-key: kikoyoTWRINonpointSource2023
+  DOI: 10.5281/zenodo.8302472
+  issued:
+    - year: 2023
+  title: TWRI Non-point Source Best Management Practice Database
+  type: dataset
+
+- id: schrammCodeDataTotal2020
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammCodeDataTotal2020
+  DOI: 10.5281/ZENODO.4321729
+  issued:
+    - year: 2020
+      month: 12
+      day: 14
+  license: Open Access
+  publisher: Zenodo
+  source: DOI.org (Datacite)
+  title: >-
+    Code and Data for Total Maximum Daily Loads and *Escherichia <span
+    class="nocase">coli</span>* trends in Texas freshwater streams.
+  title-short: mps9506/schramm-gitter-gregory-2020-tmdl-data
+  type: software
+  URL: https://zenodo.org/record/4321729
+  version: v1.0
+
+- id: schrammEstimatingStatisticalPower2020
+  author:
+    - family: Schramm
+      given: Michael P.
+  citation-key: schrammEstimatingStatisticalPower2020
+  DOI: 10.5281/ZENODO.4317858
+  issued:
+    - year: 2020
+      month: 12
+      day: 11
+  license: Open Access
+  publisher: Zenodo
+  source: DOI.org (Datacite)
+  title: >-
+    Estimating statistical power for detecting long term trends in surface water
+    *Escherichia <span class="nocase">coli</span>* concentrations
+  title-short: mps9506/schramm-ecoli-trends
+  type: software
+  URL: https://zenodo.org/record/4317858
+  version: v1.0
+
+- id: schrammTexasCoastalNutrient2023b
+  author:
+    - family: Schramm
+      given: Michael
+  citation-key: schrammTexasCoastalNutrient2023b
+  DOI: 10.5281/ZENODO.7630758
+  issued:
+    - year: 2023
+  publisher: Zenodo
+  title: Texas Coastal Nutrient Input Repository - Lavaca Bay
+  title-short: TxWRI/lavaca-nutrients
+  type: software
+  URL: https://doi.org/10.5281/zenodo.7630758
+  version: '1.3'
+...

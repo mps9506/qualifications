@@ -1,0 +1,100 @@
+---
+references:
+
+
+-
+  id: schrammCarancahuaBayWatershed2019
+  author:
+    -
+      family: Schramm
+      given: Michael P.
+    -
+      family: deVilleneuve
+      given: Stephanie
+    -
+      family: Jain
+      given: Shubham
+    -
+      family: Berthold
+      given: Allen
+    -
+      family: Mohandass
+      given: Uvashree
+  citation-key: schrammCarancahuaBayWatershed2019
+  genre: Technical Report
+  issued:
+    -
+      year: 2019
+  number: TR-514
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, Texas
+  title: Carancahua Bay Watershed Protection Plan
+  type: report
+  URL: https://twri.tamu.edu/publications/technical-reports/2019-technical-reports/tr-514/
+
+
+-
+  id: schrammTexasCoastalNutrient2023
+  author:
+    -
+      family: Schramm
+      given: Michael
+  citation-key: schrammTexasCoastalNutrient2023
+  genre: Technical Report
+  issued:
+    -
+      year: 2023
+  language: en
+  number: TR-543
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  source: Zotero
+  title: Texas Coastal Nutrient Input Repository - Task 4 Report Statistical Models for Nutrient Loading into Lavaca Bay
+  type: report
+  URL: https://twri.tamu.edu/media/6170/tr_543.pdf
+
+-
+  id: schrammTexasCoastalNutrient2023a
+  author:
+    -
+      family: Schramm
+      given: Michael
+  citation-key: schrammTexasCoastalNutrient2023a
+  genre: Technical Report
+  issued:
+    -
+      year: 2023
+  language: en
+  number: TR-546
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, TX
+  source: Zotero
+  title: Texas Coastal Nutrient Input Repository - Task 3 Report Lavaca Bay Water Quality Responses to Nutrient Loading
+  type: report
+  URL: https://twri.tamu.edu/media/6194/tr_546.pdf
+
+-
+  id: schrammTresPalaciosCreek2017
+  author:
+    -
+      family: Schramm
+      given: Michael P.
+    -
+      family: Berthold
+      given: Allen
+    -
+      family: Entwistle
+      given: Clare
+  citation-key: schrammTresPalaciosCreek2017
+  genre: Technical Report
+  issued:
+    -
+      year: 2017
+  number: TR-500
+  publisher: Texas Water Resources Institute
+  publisher-place: College Station, Texas
+  title: Tres Palacios Creek Watershed Protection Plan
+  type: report
+  URL: https://twri.tamu.edu/media/1449/tr-500.pdf
+
+...
